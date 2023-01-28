@@ -7,6 +7,7 @@
 body{
 
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 
 }
 
@@ -19,10 +20,10 @@ body{
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    z-index: 200;
+    /* z-index: 200;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
 }
 
 .navig-sinistra, .navig-destra{
@@ -52,3 +53,28 @@ body{
 }
    
 /* header  */
+
+.debug-main{
+    padding-top: 80px;
+    background-color: #b4d0e7;
+}
+
+.sezione-azzurra{
+     width: 60vw;
+     margin: auto;
+   
+}
+h1{
+
+    font-size: 60px;
+}
+
+.jumbo{
+    display: block;
+    width: 90%;
+    
+}
+.fianco{
+    
+    display: flex;
+}
