@@ -55,14 +55,19 @@ button{
 /* header  */
 
 .debug-main{
-    padding-top: 120px;
-    background-color: #b4d0e7;
-    display: flex;
+    margin-top: 70px;
+    
+    
 }
 
 .sezione-azzurra{
-     width: 60vw;
-     margin: auto;
+background-color: #b4d0e7;
+
+}
+.sezione-azzurra{
+    
+    padding: 3% 20%;
+
     
     
    
@@ -72,9 +77,14 @@ h1{
     font-size: 70px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .jumbo{
     display: block;
     width: 100%;
+    
     
   
     
@@ -105,4 +115,30 @@ h1{
 .testo{
     
     flex-grow: 1;
+}
+.sezione-abboanmenti{
+
+    padding: 5% 25%;
+    
+}
+.container-abbonamenti{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.radio-button{
+
+    display: inline-block;
+    margin: 40px 40px 40px 0;
+    
+
+}
+.abbonamento-singolo, .abbonamento-team, .abbonamento-azienda{
+    flex-grow: 1;
+    border: 1px solid black;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 10px;
 }
