@@ -1,0 +1,23 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.debug{
+
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
