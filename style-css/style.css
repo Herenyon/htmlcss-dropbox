@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
 
     font-family: 'Roboto', sans-serif;
     height: 100vh;
@@ -12,7 +13,7 @@ body{
 }
 
 /* header  */
-.debug-header{
+.debug-header {
 
     display: flex;
     height: 70px;
@@ -26,24 +27,27 @@ body{
     left: 0;
 }
 
-.navig-sinistra, .navig-destra{
+.navig-sinistra,
+.navig-destra {
     gap: 20px;
     display: flex;
     align-items: center;
 }
-.list-style li, a{
-    
-    
+
+.list-style li,
+a {
+
+
     list-style-type: none;
     display: inline;
-    list-style-type: none;
+
     color: black;
     text-decoration: none;
     margin: 15px;
 }
 
-button{
-    
+button {
+
     font-family: inherit;
     font-size: inherit;
     border: none;
@@ -51,110 +55,142 @@ button{
     color: white;
     padding: 8px 15px;
 }
-   
+
 /* header  */
 
-.debug-main{
+.debug-main {
     margin-top: 70px;
-    
-    
-}
 
-.sezione-azzurra{
-background-color: #b4d0e7;
 
 }
-.sezione-azzurra{
-    
-    padding: 3% 20%;
 
-    
-    
-   
+.sezione-azzurra {
+    background-color: #b4d0e7;
+
 }
-h1{
+
+.container {
+
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+.container, .jumbo-container {
+    
+    position: relative;
+    bottom: -70px;
+}
+
+h1 {
 
     font-size: 70px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-.jumbo{
+.jumbo {
+
     display: block;
     width: 100%;
-    
-    
-  
-    
-}
-.fianco{
-    line-height: 25px;
-    margin: 3% 0;
-    display: flex;
-    
+
+
 }
 
-.image{
+.fianco {
+    line-height: 25px;
+    
+    display: flex;
+
+}
+
+.image {
     display: flex;
     flex-grow: 2;
-    
+
 }
 
-.btn{
+.btn {
     display: block;
     margin: 30px 0;
 }
-.fa-arrow-down{
+
+.fa-arrow-down {
 
     padding-top: 15%;
     font-size: 40px;
-}  
+}
 
-.testo{
-    
+.testo {
+
     flex-grow: 1;
 }
-.sezione-abboanmenti{
+
+.sezione-abbonamenti {
 
     padding: 5% 25%;
-    
+
 }
-.container-abbonamenti{
+
+.container-abbonamenti {
     margin-top: 20px;
     display: flex;
     gap: 50px;
-
+    
 }
 
-.radio-button{
+.radio-button {
 
     display: inline-block;
     margin: 40px 40px 40px 0;
-    
+
 
 }
-.abbonamento-singolo, .abbonamento-team, .abbonamento-azienda{
+
+.abbonamento {
+   
     flex-grow: 1;
     border: 1px solid black;
     justify-content: space-between;
-    
-    
+
+
 }
-.tipo-abbonamento{
+
+.tipo-abbonamento {
     padding: 15px 5px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
-    
+
 }
 
-.titolo-abbonamento{
-    line-height: 50px;
-    padding: 20px 10px;
+.info-abbonamento {
+    padding: 20px;
+    line-height: 60px;
 }
 
-.titolo-abbonamento h3{
+.titolo-abbonamento h3 {
 
     font-size: 25px;
 }
+
+.contenuto-abbonamento li, .punti-salienti li {
+
+    list-style-type: none;
+    line-height: normal;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.fa-solid{
+
+    margin-right: 10px;
+}
+
+.fa-check{
+
+    color: #0061ff;
+}
+
