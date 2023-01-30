@@ -91,6 +91,10 @@ h2 {
     font-size: 40px;
 }
 
+h3{
+
+    font-size: 25px;
+}
 .jumbo {
 
     display: block;
@@ -101,14 +105,14 @@ h2 {
 
 .fianco {
     line-height: 25px;
-    
+    margin-top: 50px;
     display: flex;
 
 }
 
 .image {
     display: flex;
-    flex-grow: 2;
+    
 
 }
 
@@ -123,10 +127,7 @@ h2 {
     font-size: 40px;
 }
 
-.testo {
 
-    flex-grow: 1;
-}
 
 .sezione-abbonamenti {
 
@@ -151,7 +152,7 @@ h2 {
 
 .abbonamento {
    
-    flex-grow: 1;
+    width: 100%;
     border: 1px solid black;
     justify-content: space-between;
 
@@ -194,3 +195,71 @@ h2 {
     color: #0061ff;
 }
 
+.abbonamento-largo{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.abbonamento-largo .info-abbonamento{
+    
+    display: flex;
+}
+
+
+.sezione-partner{
+
+    padding: 5% 25%;
+}
+
+.partner-container{
+    
+    display: flex;
+}
+
+.partner-container .jumbo{
+    
+    width: 100%;
+}
+
+.paragrafo-partner{
+    width: 40%;
+    padding: 50px;
+}
+.image-partner{
+    width: 60%;
+    display: flex;
+}
+
+.paragrafo-partner h3, p{
+
+    margin-bottom: 40px;
+}
+
+.paragrafo-partner .btn{
+
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+
+}
+
+.container-operazioni{
+    padding: 5% 25%;
+    width: 100%;
+    
+    
+}
+
+.operazioni{
+    justify-content: space-between;
+    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.operazioni h3 {
+    
+    margin: 30px 0;
+}
