@@ -279,7 +279,7 @@ h3{
 
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    border: 1px solid black;
+    
     display: flex;
     flex-wrap: wrap;
     
@@ -320,8 +320,13 @@ h3{
     background-color: #61082b;
 }
 
-.florida{
+.florida svg {
+
     height: unset;
+}
+
+.florida{
+    
     background-color: #0093ce;
 }
 
