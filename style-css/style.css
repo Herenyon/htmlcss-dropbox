@@ -7,7 +7,7 @@
 
 body {
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100vh;
 
 }
@@ -25,6 +25,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    
 }
 
 .navig-sinistra,
@@ -32,15 +33,16 @@ body {
     gap: 20px;
     display: flex;
     align-items: center;
+  
 }
 
 .list-style li,
 a {
 
-
+    
     list-style-type: none;
     display: inline;
-
+    line-height: 80px;
     color: black;
     text-decoration: none;
     margin: 15px;
@@ -123,7 +125,7 @@ h3{
 
 .fa-arrow-down {
 
-    padding-top: 15%;
+    padding-top: 10%;
     font-size: 40px;
 }
 
@@ -199,6 +201,7 @@ h3{
     margin-top: 20px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     
 }
 
@@ -206,6 +209,8 @@ h3{
     
     display: flex;
 }
+
+
 
 
 .sezione-partner{
@@ -262,4 +267,85 @@ h3{
 .operazioni h3 {
     
     margin: 30px 0;
+}
+
+.container-fine-operazioni{
+
+   
+    margin-top: 200px;
+}
+
+.sezione-loghi .loghi{
+
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container-loghi{
+    
+    display: flex;
+    
+}
+
+.box-logo{
+    color: white;
+    
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-logo svg{
+
+    width: 50%;
+    height: 50%;
+}
+
+.designit{
+    padding: 10px;
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+
+}
+
+.arizona{
+
+    background-color: #61082b;
+}
+
+.florida{
+
+    background-color: #0093ce;
+}
+
+.topps{
+
+    background-color: #ff1c1c;
+}
+
+.bicyle{
+
+    background-color: #d5001f;
+}
+
+.hearst{
+
+    background-color: #b4d0e7;
+}
+
+.lonely-planet{
+
+    background-color: #0d2481;
+}
+
+.clear-channel{
+
+    background-color: #ffd830;
 }
