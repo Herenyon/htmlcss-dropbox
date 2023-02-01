@@ -12,6 +12,20 @@ body {
 
 }
 
+h1 {
+
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+
+    font-size: 25px;
+}
+
 /* header  */
 .debug-header {
 
@@ -25,7 +39,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    
+
 }
 
 .navig-sinistra,
@@ -33,19 +47,24 @@ body {
     gap: 20px;
     display: flex;
     align-items: center;
-  
+
 }
 
 .list-style li,
 a {
 
-    
+
     list-style-type: none;
-    display: inline;
-    line-height: 80px;
+    display: inline-block;
+    line-height: 70px;
     color: black;
     text-decoration: none;
-    margin: 15px;
+    margin: 10px 15px;
+}
+
+.list-style a:hover {
+
+    border-bottom: 2px solid black;
 }
 
 button {
@@ -58,14 +77,16 @@ button {
     padding: 8px 15px;
 }
 
-/* header  */
+/*fine header  */
 
+/* inizio main */
 .debug-main {
     margin-top: 70px;
 
 
 }
 
+/* prima sezione azzurra */
 .sezione-azzurra {
     background-color: #b4d0e7;
 
@@ -78,25 +99,15 @@ button {
 
 }
 
-.container, .jumbo-container {
-    
+.container,
+.jumbo-container {
+
     position: relative;
     bottom: -70px;
 }
 
-h1 {
 
-    font-size: 70px;
-}
 
-h2 {
-    font-size: 40px;
-}
-
-h3{
-
-    font-size: 25px;
-}
 .jumbo {
 
     display: block;
@@ -114,7 +125,7 @@ h3{
 
 .image {
     display: flex;
-    
+
 
 }
 
@@ -129,7 +140,9 @@ h3{
     font-size: 40px;
 }
 
+/* fine prima sezione azzurra  */
 
+/* inizio sezione abbonamenti  */
 
 .sezione-abbonamenti {
 
@@ -137,12 +150,28 @@ h3{
 
 }
 
+.sezione-abbonamenti a {
+
+    text-decoration: unset;
+}
+
+.sezione-abbonamenti hr {
+
+    width: 20%;
+    size: 3px;
+    color: #d0d0d3;
+    margin-bottom: 50px;
+
+}
+
 .container-abbonamenti {
     margin-top: 20px;
     display: flex;
     gap: 50px;
-    
+
 }
+
+
 
 .radio-button {
 
@@ -153,7 +182,7 @@ h3{
 }
 
 .abbonamento {
-   
+
     width: 100%;
     border: 1px solid black;
     justify-content: space-between;
@@ -178,7 +207,8 @@ h3{
     font-size: 25px;
 }
 
-.contenuto-abbonamento li, .punti-salienti li {
+.contenuto-abbonamento li,
+.punti-salienti li {
 
     list-style-type: none;
     line-height: normal;
@@ -187,77 +217,82 @@ h3{
 
 }
 
-.fa-solid{
+.fa-solid {
 
     margin-right: 10px;
 }
 
-.fa-check{
+.fa-check {
 
     color: #0061ff;
 }
 
-.abbonamento-largo{
+.abbonamento-largo {
     margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.abbonamento-largo .info-abbonamento{
-    
+.abbonamento-largo .info-abbonamento {
+
     display: flex;
 }
 
 
+/* fine sezione abbonamenti  */
 
-
-.sezione-partner{
+/* inizio sezione partner  */
+.sezione-partner {
 
     padding: 5% 25%;
 }
 
-.partner-container{
-    
+.partner-container {
+
     display: flex;
 }
 
-.partner-container .jumbo{
-    
+.partner-container .jumbo {
+
     width: 100%;
 }
 
-.paragrafo-partner{
+.paragrafo-partner {
     width: 40%;
     padding: 50px;
 }
-.image-partner{
+
+.image-partner {
     width: 60%;
     display: flex;
 }
 
-.paragrafo-partner h3, p{
+.paragrafo-partner h3,
+p {
 
     margin-bottom: 40px;
 }
 
-.paragrafo-partner .btn{
+.paragrafo-partner .btn {
 
     border: 1px solid black;
     background-color: white;
     color: black;
 
 }
+/* fine sezione partner  */
 
-.container-operazioni{
+/* inizio sezione operazioni  */
+.container-operazioni {
     padding: 5% 25%;
     width: 100%;
-    
-    
+
+
 }
 
-.operazioni{
+.operazioni {
     justify-content: space-between;
     margin: 50px 0;
     display: flex;
@@ -265,35 +300,37 @@ h3{
 }
 
 .operazioni h3 {
-    
+
     margin: 30px 0;
 }
 
-.container-fine-operazioni{
+.container-fine-operazioni {
 
-   
+
     margin-top: 200px;
 }
+/* fine sezione operazioni  */
 
-.sezione-loghi .loghi{
+/* inizio sezione con loghi  */
+.sezione-loghi .loghi {
 
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    
+
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.container-loghi{
-    
+.container-loghi {
+
     display: flex;
-    
+
 }
 
-.box-logo{
+.box-logo {
     color: white;
-    
+
     width: 50%;
     height: 50%;
     display: flex;
@@ -302,55 +339,221 @@ h3{
 
 }
 
-.box-logo svg{
+.box-logo svg {
 
     width: 50%;
     height: 50%;
 }
 
-.designit{
+.designit {
     padding: 10px;
     background-color: #a2d39b;
     border: 10px solid #d1e9cd;
 
 }
 
-.arizona{
+.arizona {
 
     background-color: #61082b;
 }
 
-.florida svg {
+.florida {
 
-    height: unset;
-}
-
-.florida{
-    
     background-color: #0093ce;
 }
 
-.topps{
+.topps {
 
     background-color: #ff1c1c;
 }
 
-.bicyle{
+.bicyle {
 
     background-color: #d5001f;
 }
 
-.hearst{
+.hearst {
 
     background-color: #b4d0e7;
 }
 
-.lonely-planet{
+.lonely-planet {
 
     background-color: #0d2481;
 }
 
-.clear-channel{
+.clear-channel {
 
     background-color: #ffd830;
 }
+
+.sezione-centrale {
+
+    padding: 50px;
+}
+
+.sezione-centrale svg {
+
+    margin-bottom: 50px;
+}
+
+.sezione-centrale hr {
+
+    width: 20%;
+    size: 3px;
+    color: #d0d0d3;
+    margin-bottom: 50px;
+
+}
+/* fine sezione con loghi  */
+
+/* inizio seconda sezione azzurra  */
+.sezione-azzurra-due {
+
+    background-color: #b4d0e7;
+
+}
+
+.container-pre-faq {
+    display: flex;
+    padding: 5% 25%;
+    justify-content: space-between;
+}
+
+.sezione-azzurra-due .container-pre-faq h2 {
+    color: #61082b;
+    width: 70%;
+}
+
+.container-pre-faq .btn {
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+}
+/* fine seconda sezione azzurra  */
+
+/* inizio sezione faq  */
+.container-faq {
+
+    padding: 5% 25%;
+
+}
+
+.container-faq h2 {
+
+    margin: 40px 0;
+}
+
+.faq-box {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+}
+
+.faq-box.primo-faqbox {
+
+    border-top: 2px solid #999999;
+
+}
+
+.faq-box.secondo-faqbox {
+
+    border-top: 2px solid #999999;
+    border-bottom: 2px solid #999999;
+
+}
+
+.faq-box.terzo-faqbox {
+
+    border-bottom: 2px solid #999999;
+
+}
+/* fine sezione faq  */
+
+/* inizio sezione footer dei contatti  */
+.contatti li:first-child {
+
+    color: white;
+    pointer-events: none;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+
+
+.contatti {
+
+    color: white;
+    display: inline-block;
+
+
+}
+
+.contatti li {
+
+    list-style-type: none;
+
+}
+
+.contatti a {
+    line-height: 40px;
+    color: white;
+}
+
+.small-box-footer {
+
+    justify-content: center;
+
+    flex-grow: 1;
+    height: 70%;
+
+}
+
+.sezione-footer.footer-top {
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+.sezione-footer {
+
+    display: flex;
+
+    align-items: center;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+footer {
+    line-height: unset;
+    background-color: black;
+
+}
+
+.sezione-footer.footer-bottom {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+}
+
+.container-crediti hr {
+
+    width: 20%;
+    size: 3px;
+    color: #d0d0d3;
+    margin-bottom: 10px;
+}
+
+.container-crediti {
+
+    align-items: center;
+    width: 70%;
+    height: 50%;
+}
+/* fine sezione footer dei contatti  */
